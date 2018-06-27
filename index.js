@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const argv = require('yargs').argv;
@@ -16,7 +18,7 @@ const oenv = () => {
   if (argv.v || argv.verbose) {
     console.log(content);
   }
-  fs.writeFileSync(outputPath);
+  fs.writeFileSync(outputPath, content);
 }
 module.exports = oenv;
 
