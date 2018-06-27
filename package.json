@@ -1,6 +1,6 @@
 {
   "name": "oenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Override environment variables in your build time.",
   "main": "index.js",
   "scripts": {
