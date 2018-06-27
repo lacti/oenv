@@ -1,0 +1,25 @@
+{
+  "name": "oenv",
+  "version": "1.0.0",
+  "description": "Override environment variables in your build time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lacti/oenv.git"
+  },
+  "keywords": [
+    "env"
+  ],
+  "author": "jaeyoung.choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacti/oenv/issues"
+  },
+  "homepage": "https://github.com/lacti/oenv#readme",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
